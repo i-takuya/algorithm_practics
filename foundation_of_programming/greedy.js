@@ -59,3 +59,16 @@ for(w of D) {
     console.log(`${w} is subsequence of ${S}`)
   }
 }
+
+// O(M*N)
+/*for (w of D) {
+ let correct = 0;
+ for(let i = 0;i < S.length; i++) {
+   if(S[i] === w[correct]) {
+     correct++;
+     if(correct === w.length) {
+       console.log(`${w} is subsequence of ${S}`)
+       break;
+     }
+   }
+ }*/
